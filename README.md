@@ -1,8 +1,12 @@
-# firefox CSS
-Simple oneline, minimal, keyboard-centered Firefox CSS theme.
+# Another Online
 
-## Screenshots
-![screenshot1](ass/screenshot1.png)
+Another simple, oneline, minimal, keyboard-centered Firefox CSS theme.
+
+![Screenshot](ass/screenshot.png)
+
+![Screenshot0](ass/screenshot2.png)
+
+By default, all buttons and icons are hidden, except for the `Application Menu` button.
 
 ## Setup and installation
 1. Clone this repository or download the `userChrome.css` file to your local machine
@@ -12,8 +16,11 @@ Simple oneline, minimal, keyboard-centered Firefox CSS theme.
 5. Copy the `userChrome.css` file to `chrome`
 6. Restart the browser to apply the theme
 
-## Recommendation
-It looks better with the [Adaptative Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/) extension.
+## Optional
+
+You can use the [Adaptative Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/) extension with the following settings:
+
+![Extension settings](ass/screenshot3.png)
 
 ## Credits
-This stylesheet uses code snippets from [JarnotMaciej/Essence](https://github.com/JarnotMaciej/Essence) 😳
+This theme uses code snippets from [JarnotMaciej/Essence](https://github.com/JarnotMaciej/Essence) 👈 Thank you~~ 🤗 
