@@ -27,4 +27,4 @@ You can use the [Adaptative Tab Bar Color](https://addons.mozilla.org/en-US/fire
 ![Extension settings](ass/screenshot3.png)
 
 ## Credits
-This theme uses code snippets from [JarnotMaciej/Essence](https://github.com/JcommentingarnotMaciej/Essence) 👈 Thank you~~ 🤗 
+This theme uses code snippets from [JarnotMaciej/Essence](https://github.com/JarnotMaciej/Essence) 👈 Thank you~~ 🤗 
