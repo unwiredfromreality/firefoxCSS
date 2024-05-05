@@ -24,7 +24,8 @@ You can change the visibility of elements in the `userChrome.css` file, just com
 
 You can use the [Adaptative Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/) extension with the following settings:
 
-![Extension settings](ass/screenshot3.png)
+![extension1](ass/screenshot-extension.png)
+![extension2](ass/screenshot-extension2.png)
 
 ## Credits
 This theme uses code snippets from [JarnotMaciej/Essence](https://github.com/JarnotMaciej/Essence) 👈 Thank you~~ 🤗 
