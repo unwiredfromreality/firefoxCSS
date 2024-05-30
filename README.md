@@ -16,9 +16,36 @@ Another simple, oneline, minimal, keyboard-centered Firefox CSS theme.
 
 ## Customization
 
-By default, all buttons and icons are hidden, except for the *"Application Menu"* (☰) button.
+By default, all buttons and icons are hidden, except for the *"Application Menu"* (☰) button. This includes:
+- The window control buttons (minimize, resize and close window)
+- Backward and foward buttons
+- Extensions button
+- All tabs (⌄) button
+- "This time search with..." when searching in the url
+- ALL URL bar icons (permissons, bookmarks, extension icon, picture-in-picture, tracking protection, reader mode and translations)
 
-You can change the visibility of elements in the `userChrome.css` file, just comment the lines or block for the ones you want to see.
+You can change the visibility of elements in the `userChrome.css` file, just comment out the lines or block for the ones you want to see.
+
+```css
+/* This is an ~example~ with code from the userChrome.css file */
+
+/* Extensions button */
+#unified-extensions-button {
+  /* display: none !important /* Makes the Extensions button visible */
+}
+
+/* URL bar icons */
+#identity-permission-box,
+/* #star-button-box, /* Makes only the Bookmarks (star) icon visible */
+#identity-icon-box,
+#picture-in-picture-button,
+#tracking-protection-icon-container,
+#reader-mode-button,
+#translations-button
+{
+  display: none !important
+}
+```
 
 ## Optional
 
