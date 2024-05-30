@@ -18,7 +18,7 @@
 /* Window control buttons (min, resize and close) */
 .titlebar-buttonbox-container {
   display: none !important;
-  margin-right: 12px !important; /* If display is enable // CSS is NOT my thing :sob: */
+  margin-right: 12px !important;
 }
 
 /* Page back and foward buttons */
@@ -38,10 +38,14 @@
   visibility: collapse !important
 }
 
+/* All tabs (v-like) button */
+#alltabs-button {
+  display: none !important
+}
+
 /* URL bar icons */
 #identity-permission-box,
 #star-button-box,
-#alltabs-button,
 #identity-icon-box,
 #picture-in-picture-button,
 #tracking-protection-icon-container,
