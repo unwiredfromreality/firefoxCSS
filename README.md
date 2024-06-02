@@ -24,7 +24,7 @@ By default, all buttons and icons are hidden, except for the *"Application Menu"
 - "This time search with..." when searching in the url
 - ALL URL bar icons (permissons, bookmarks, extension icon, picture-in-picture, tracking protection, reader mode and translations)
 
-You can change the visibility of elements in the `userChrome.css` file, just comment out the lines or block for the ones you want to see.
+You can change the visibility of elements in the `userChrome.css` file, just delete or comment out the lines or block for the ones you want to see.
 
 ```css
 /* This is an ~example~ with code from the userChrome.css file */
