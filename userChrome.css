@@ -16,10 +16,12 @@
 }
 
 /* Window control buttons (min, resize and close) */
-.titlebar-buttonbox-container {
-  display: none !important;
-  margin-right: 12px !important;
-}
+/*
+* .titlebar-buttonbox-container {
+*  display: none !important;
+*  margin-right: 12px !important;
+* }
+*/
 
 /* Page back and foward buttons */
 #back-button,
@@ -64,7 +66,7 @@
 
 /* Navbar size calc */
 :root{
---tab-border-radius: 6px !important; /*  Tab border radius -- Changes the tabs rounding  *//*  Default: 6px  */
+--tab-border-radius: 4px !important; /*  Tab border radius -- Changes the tabs rounding  *//*  Default: 6px  */
 --NavbarWidth: 43; /*  Default values: 36 - 43  */
 --TabsHeight: 36; /*  Minimum: 30  *//*  Default: 36  */
 --TabsBorder: 8; /*  Doesnt do anything on small layout  *//*  Default: 8  */
@@ -140,4 +142,9 @@
     background: none !important;
     cursor: pointer;
     display: -moz-box !important;
+}
+
+.tab-background[selected] {
+box-shadow: none !important;
+border: 1px solid !important;
 }
